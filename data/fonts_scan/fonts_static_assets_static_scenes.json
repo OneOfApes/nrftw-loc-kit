@@ -1,0 +1,94 @@
+{
+ "rows": [
+  {
+   "bundle": "static_scenes_all_4e4f044bdfbea60ea0d603528a2da4ef.bundle",
+   "file": "CAB-aa51f5b3807cab1cc6858c63e608bf46.sharedAssets",
+   "path_id": 257,
+   "name": "Arcon-Regular SDF Flavor",
+   "family": "Arcon",
+   "style": "Regular",
+   "point_size": 159.0,
+   "scale": 1.0,
+   "atlas_w": 2048,
+   "atlas_h": 2048,
+   "padding": 10,
+   "glyphs": 317,
+   "chars": 317,
+   "n_atlas_tex": 1,
+   "source_file": "",
+   "mat_pathid": "",
+   "n_fallbacks": 5,
+   "fallbacks": "7:-2444889057261992194;7:-1873437922151969230;7:5883303105940604644;7:-5628841410843009032;7:7920215030657585504"
+  },
+  {
+   "bundle": "static_scenes_all_4e4f044bdfbea60ea0d603528a2da4ef.bundle",
+   "file": "CAB-aa51f5b3807cab1cc6858c63e608bf46.sharedAssets",
+   "path_id": 2927,
+   "name": "uiFontIcons",
+   "family": "",
+   "style": "",
+   "point_size": 0.0,
+   "scale": 0.0,
+   "atlas_w": "",
+   "atlas_h": "",
+   "padding": "",
+   "glyphs": 88,
+   "chars": 0,
+   "n_atlas_tex": 0,
+   "source_file": "",
+   "mat_pathid": "",
+   "n_fallbacks": 0,
+   "fallbacks": ""
+  }
+ ],
+ "edges": [
+  {
+   "bundle": "static_scenes_all_4e4f044bdfbea60ea0d603528a2da4ef.bundle",
+   "file": "CAB-aa51f5b3807cab1cc6858c63e608bf46.sharedAssets",
+   "src_pathid": 257,
+   "src_name": "Arcon-Regular SDF Flavor",
+   "dst_fileid": 7,
+   "dst_pathid": -2444889057261992194,
+   "dst_external": "archive:/CAB-c96cdae22def2c264391645ea79e4d4c/CAB-c96cdae22def2c264391645ea79e4d4c"
+  },
+  {
+   "bundle": "static_scenes_all_4e4f044bdfbea60ea0d603528a2da4ef.bundle",
+   "file": "CAB-aa51f5b3807cab1cc6858c63e608bf46.sharedAssets",
+   "src_pathid": 257,
+   "src_name": "Arcon-Regular SDF Flavor",
+   "dst_fileid": 7,
+   "dst_pathid": -1873437922151969230,
+   "dst_external": "archive:/CAB-c96cdae22def2c264391645ea79e4d4c/CAB-c96cdae22def2c264391645ea79e4d4c"
+  },
+  {
+   "bundle": "static_scenes_all_4e4f044bdfbea60ea0d603528a2da4ef.bundle",
+   "file": "CAB-aa51f5b3807cab1cc6858c63e608bf46.sharedAssets",
+   "src_pathid": 257,
+   "src_name": "Arcon-Regular SDF Flavor",
+   "dst_fileid": 7,
+   "dst_pathid": 5883303105940604644,
+   "dst_external": "archive:/CAB-c96cdae22def2c264391645ea79e4d4c/CAB-c96cdae22def2c264391645ea79e4d4c"
+  },
+  {
+   "bundle": "static_scenes_all_4e4f044bdfbea60ea0d603528a2da4ef.bundle",
+   "file": "CAB-aa51f5b3807cab1cc6858c63e608bf46.sharedAssets",
+   "src_pathid": 257,
+   "src_name": "Arcon-Regular SDF Flavor",
+   "dst_fileid": 7,
+   "dst_pathid": -5628841410843009032,
+   "dst_external": "archive:/CAB-c96cdae22def2c264391645ea79e4d4c/CAB-c96cdae22def2c264391645ea79e4d4c"
+  },
+  {
+   "bundle": "static_scenes_all_4e4f044bdfbea60ea0d603528a2da4ef.bundle",
+   "file": "CAB-aa51f5b3807cab1cc6858c63e608bf46.sharedAssets",
+   "src_pathid": 257,
+   "src_name": "Arcon-Regular SDF Flavor",
+   "dst_fileid": 7,
+   "dst_pathid": 7920215030657585504,
+   "dst_external": "archive:/CAB-c96cdae22def2c264391645ea79e4d4c/CAB-c96cdae22def2c264391645ea79e4d4c"
+  }
+ ],
+ "log": [
+  "static_scenes_all_4e4f044bdfbea60ea0d603528a2da4ef.bundle|CAB-aa51f5b3807cab1cc6858c63e608bf46.sharedAssets: 2 шрифтових асетів"
+ ]
+}

@@ -1,0 +1,126 @@
+<Window x:Class="UAInstaller.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="NRFTW-UA-TEXT" Height="540" Width="860"
+        WindowStyle="None" AllowsTransparency="True" Background="Transparent"
+        ResizeMode="NoResize" WindowStartupLocation="CenterScreen"
+        FontFamily="Cascadia Mono, Consolas">
+    <Window.Resources>
+        <SolidColorBrush x:Key="Bg" Color="#FF0B0D0E"/>
+        <SolidColorBrush x:Key="Panel" Color="#FF0F1113"/>
+        <SolidColorBrush x:Key="Rule" Color="#FF1C2023"/>
+        <SolidColorBrush x:Key="Fg" Color="#FFD8D8D8"/>
+        <SolidColorBrush x:Key="Dim" Color="#FF5C6166"/>
+        <SolidColorBrush x:Key="Dimmer" Color="#FF3A3E42"/>
+        <SolidColorBrush x:Key="Accent" Color="#FFE6E6E6"/>
+        <SolidColorBrush x:Key="Ok" Color="#FF6FBF73"/>
+        <SolidColorBrush x:Key="Err" Color="#FFCF6A5A"/>
+
+        <!-- мінімальна текстова кнопка -->
+        <Style x:Key="TextAction" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Foreground" Value="{StaticResource Dim}"/>
+            <Setter Property="FontSize" Value="13"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Padding" Value="0,2"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <StackPanel Background="Transparent">
+                            <ContentPresenter Margin="{TemplateBinding Padding}"/>
+                            <Rectangle x:Name="ul" Height="1" Fill="{TemplateBinding Foreground}" Opacity="0"/>
+                        </StackPanel>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="ul" Property="Opacity" Value="0.8"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter Property="Opacity" Value="0.35"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Border Background="{StaticResource Bg}" BorderBrush="{StaticResource Rule}" BorderThickness="1"
+            MouseLeftButtonDown="Drag">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="52"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="64"/>
+            </Grid.RowDefinitions>
+
+            <!-- header -->
+            <Grid Grid.Row="0">
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="32,0,0,0">
+                    <StackPanel VerticalAlignment="Center" Margin="0,1,12,0">
+                        <Rectangle Width="14" Height="4" Fill="#FF3C6FB0"/>
+                        <Rectangle Width="14" Height="4" Fill="#FFC9A227"/>
+                    </StackPanel>
+                    <TextBlock Text="NRFTW-UA-TEXT" FontSize="13" Foreground="{StaticResource Fg}"
+                               VerticalAlignment="Center">
+                        <TextBlock.LayoutTransform><ScaleTransform/></TextBlock.LayoutTransform>
+                    </TextBlock>
+                    <TextBlock Text="  ·  переклад тексту + шрифти" FontSize="13" Foreground="{StaticResource Dim}"
+                               VerticalAlignment="Center"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center">
+                    <TextBlock Text="ONEOFAPES" FontSize="11" Foreground="{StaticResource Dimmer}"
+                               VerticalAlignment="Center" Margin="0,0,20,0"/>
+                    <Button Content="–" Style="{StaticResource TextAction}" FontSize="14" Width="28"
+                            Click="MinClick" HorizontalContentAlignment="Center"/>
+                    <Button Content="✕" Style="{StaticResource TextAction}" FontSize="12" Width="28"
+                            Click="CloseClick" Margin="0,0,14,0" HorizontalContentAlignment="Center"/>
+                </StackPanel>
+            </Grid>
+            <Rectangle Grid.Row="0" Height="1" Fill="{StaticResource Rule}" VerticalAlignment="Bottom"/>
+
+            <!-- status + progress -->
+            <Grid Grid.Row="1" Margin="32,26,32,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0" Margin="0,0,0,18">
+                    <TextBlock x:Name="StatusText" Text="перевірка" FontSize="22"
+                               Foreground="{StaticResource Fg}" FontWeight="Light"/>
+                    <TextBlock x:Name="PercentText" Text="" FontSize="22" FontWeight="Light"
+                               Foreground="{StaticResource Dim}" HorizontalAlignment="Right"/>
+                </Grid>
+                <Grid Grid.Row="1" Height="2" Background="{StaticResource Rule}">
+                    <Rectangle x:Name="ProgressFill" HorizontalAlignment="Left" Width="0"
+                               Fill="{StaticResource Accent}"/>
+                </Grid>
+            </Grid>
+
+            <!-- console -->
+            <Border Grid.Row="2" Margin="32,22,32,0" Background="{StaticResource Panel}"
+                    BorderBrush="{StaticResource Rule}" BorderThickness="1">
+                <ScrollViewer x:Name="Scroller" VerticalScrollBarVisibility="Auto" Padding="16,10">
+                    <StackPanel x:Name="Term"/>
+                </ScrollViewer>
+            </Border>
+
+            <!-- footer -->
+            <Grid Grid.Row="3">
+                <Rectangle Height="1" Fill="{StaticResource Rule}" VerticalAlignment="Top"/>
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="32,0,0,0">
+                    <Button x:Name="InstallBtn" Content="ВСТАНОВИТИ" Style="{StaticResource TextAction}"
+                            Foreground="{StaticResource Fg}" FontSize="14" Click="InstallClick"/>
+                    <Button x:Name="BrowseBtn" Content="вказати гру" Style="{StaticResource TextAction}"
+                            Margin="34,0,0,0" Click="BrowseClick"/>
+                    <Button x:Name="RollbackBtn" Content="відкат" Style="{StaticResource TextAction}"
+                            Margin="34,0,0,0" Click="RollbackClick"
+                            ToolTip="перевірка цілісності Steam поверне оригінал"/>
+                </StackPanel>
+                <TextBlock Text="v3.0" FontSize="11" Foreground="{StaticResource Dimmer}"
+                           HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,32,0"/>
+            </Grid>
+        </Grid>
+    </Border>
+</Window>

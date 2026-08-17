@@ -1,0 +1,9 @@
+# nrftw-loc-kit runtime dependencies
+# python -m pip install -r requirements.txt
+
+UnityPy>=1.10          # typetree read/write of Unity assets and bundles
+Pillow>=10.0           # glyph rasterization and atlas composition
+numpy>=1.24            # atlas pixel math
+fonttools>=4.40        # font metrics, glyph bounds, cmap lookups
+scipy>=1.10            # distance_transform_edt -> SDF generation
+lz4>=4.0               # LZ4 block decompression of Unity bundles

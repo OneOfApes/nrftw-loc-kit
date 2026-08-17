@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>NRFTW-UA-TEXT</AssemblyName>
+    <Company>ONEOFAPES</Company>
+    <Product>NRFTW-UA-TEXT</Product>
+    <RootNamespace>UAInstaller</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>ua.ico</ApplicationIcon>
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <AssemblyVersion>3.0.0</AssemblyVersion>
+    <FileVersion>3.0.0</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="payload\**" LinkBase="payload" />
+  </ItemGroup>
+
+</Project>
