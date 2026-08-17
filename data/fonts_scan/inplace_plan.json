@@ -1,0 +1,20 @@
+{
+ "fixel": {
+  "asset_off": 327194488,
+  "asset_len": 42336,
+  "atlas_off": 3921022608,
+  "atlas_len": 4194304,
+  "scale": 0.7801,
+  "name": "NotoSerifCyrillic-Regular SDF",
+  "tex": "NotoSerifCyrillic-Regular SDF Atlas"
+ },
+ "kyiv": {
+  "asset_off": 162745480,
+  "asset_len": 42328,
+  "atlas_off": 2388802064,
+  "atlas_len": 4194304,
+  "scale": 0.8242,
+  "name": "NotoSerifCyrillic-Bold SDF",
+  "tex": "NotoSerifCyrillic-Bold SDF Atlas"
+ }
+}

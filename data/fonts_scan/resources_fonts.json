@@ -1,0 +1,1062 @@
+[
+ {
+  "path_id": 3310,
+  "name": "Arcon-Regular Header",
+  "file": "resources.assets",
+  "fmt": "new",
+  "raw_size": 46456,
+  "glyphs": 317,
+  "chars": 317,
+  "family": "Arcon",
+  "style": "Regular",
+  "point": 159.0,
+  "scale": 1.0,
+  "cap": 114.0,
+  "atlas": "2048x2048",
+  "pad": 10,
+  "atlas_tex": [
+   606
+  ],
+  "fallbacks": [
+   [
+    "resources.assets",
+    3335
+   ],
+   [
+    "resources.assets",
+    3338
+   ],
+   [
+    "resources.assets",
+    3342
+   ],
+   [
+    "resources.assets",
+    3346
+   ],
+   [
+    "resources.assets",
+    3350
+   ]
+  ]
+ },
+ {
+  "path_id": 3311,
+  "name": "Arcon-Regular SDF",
+  "file": "resources.assets",
+  "fmt": "new",
+  "raw_size": 46456,
+  "glyphs": 317,
+  "chars": 317,
+  "family": "Arcon",
+  "style": "Regular",
+  "point": 159.0,
+  "scale": 1.0,
+  "cap": 114.0,
+  "atlas": "2048x2048",
+  "pad": 10,
+  "atlas_tex": [
+   606
+  ],
+  "fallbacks": [
+   [
+    "resources.assets",
+    3335
+   ],
+   [
+    "resources.assets",
+    3338
+   ],
+   [
+    "resources.assets",
+    3342
+   ],
+   [
+    "resources.assets",
+    3346
+   ],
+   [
+    "resources.assets",
+    3350
+   ]
+  ]
+ },
+ {
+  "path_id": 3312,
+  "name": "ArconBold-Regular SDF - Variant",
+  "file": "resources.assets",
+  "fmt": "new",
+  "raw_size": 1857276,
+  "glyphs": 317,
+  "chars": 317,
+  "family": "Arcon",
+  "style": "Regular",
+  "point": 159.0,
+  "scale": 1.0,
+  "cap": 114.0,
+  "atlas": "2048x2048",
+  "pad": 10,
+  "atlas_tex": [
+   606
+  ],
+  "fallbacks": []
+ },
+ {
+  "path_id": 3318,
+  "name": "LiberationSans SDF - Fallback",
+  "file": "resources.assets",
+  "fmt": "new",
+  "raw_size": 36476,
+  "glyphs": 0,
+  "chars": 0,
+  "family": "Liberation Sans",
+  "style": "Regular",
+  "point": 86.0,
+  "scale": 1.0,
+  "cap": 59.0,
+  "atlas": "512x512",
+  "pad": 9,
+  "atlas_tex": [
+   605
+  ],
+  "fallbacks": []
+ },
+ {
+  "path_id": 3319,
+  "name": "LiberationSans SDF",
+  "file": "resources.assets",
+  "fmt": "new",
+  "raw_size": 465792,
+  "glyphs": 250,
+  "chars": 250,
+  "family": "Liberation Sans",
+  "style": "Regular",
+  "point": 86.0,
+  "scale": 1.0,
+  "cap": 59.0,
+  "atlas": "1024x1024",
+  "pad": 9,
+  "atlas_tex": [
+   607
+  ],
+  "fallbacks": [
+   [
+    "resources.assets",
+    3318
+   ],
+   [
+    "resources.assets",
+    3335
+   ],
+   [
+    "resources.assets",
+    3338
+   ],
+   [
+    "resources.assets",
+    3342
+   ],
+   [
+    "resources.assets",
+    3346
+   ],
+   [
+    "resources.assets",
+    3350
+   ]
+  ]
+ },
+ {
+  "path_id": 3320,
+  "name": "LiberationSansBold SDF - Variant",
+  "file": "resources.assets",
+  "fmt": "new",
+  "raw_size": 29668,
+  "glyphs": 250,
+  "chars": 250,
+  "family": "Liberation Sans",
+  "style": "Regular",
+  "point": 86.0,
+  "scale": 1.0,
+  "cap": 59.0,
+  "atlas": "1024x1024",
+  "pad": 9,
+  "atlas_tex": [
+   607
+  ],
+  "fallbacks": [
+   [
+    "resources.assets",
+    3318
+   ],
+   [
+    "resources.assets",
+    3335
+   ],
+   [
+    "resources.assets",
+    3338
+   ],
+   [
+    "resources.assets",
+    3342
+   ],
+   [
+    "resources.assets",
+    3346
+   ],
+   [
+    "resources.assets",
+    3350
+   ]
+  ]
+ },
+ {
+  "path_id": 3324,
+  "name": "Arcon-Regular SDF",
+  "file": "resources.assets",
+  "fmt": "old",
+  "raw_size": 21936,
+  "read_err": "read_str out of bounds",
+  "fallbacks": [
+   [
+    "resources.assets",
+    3351
+   ],
+   [
+    "resources.assets",
+    3334
+   ],
+   [
+    "resources.assets",
+    3339
+   ],
+   [
+    "resources.assets",
+    3343
+   ],
+   [
+    "resources.assets",
+    3347
+   ]
+  ],
+  "glyphs": "?"
+ },
+ {
+  "path_id": 3325,
+  "name": "Arcon-Regular SDF_stats_value",
+  "file": "resources.assets",
+  "fmt": "new",
+  "raw_size": 46220,
+  "glyphs": 317,
+  "chars": 317,
+  "family": "Arcon",
+  "style": "Regular",
+  "point": 159.0,
+  "scale": 1.0,
+  "cap": 114.0,
+  "atlas": "2048x2048",
+  "pad": 10,
+  "atlas_tex": [
+   606
+  ],
+  "fallbacks": [
+   [
+    "resources.assets",
+    3335
+   ],
+   [
+    "resources.assets",
+    3338
+   ],
+   [
+    "resources.assets",
+    3342
+   ],
+   [
+    "resources.assets",
+    3346
+   ],
+   [
+    "resources.assets",
+    3350
+   ]
+  ]
+ },
+ {
+  "path_id": 3326,
+  "name": "Arcon-Regular-Loc SDF",
+  "file": "resources.assets",
+  "fmt": "old",
+  "raw_size": 13992,
+  "read_err": "read_str out of bounds",
+  "fallbacks": [
+   [
+    "resources.assets",
+    3351
+   ],
+   [
+    "resources.assets",
+    3334
+   ],
+   [
+    "resources.assets",
+    3339
+   ],
+   [
+    "resources.assets",
+    3343
+   ],
+   [
+    "resources.assets",
+    3347
+   ]
+  ],
+  "glyphs": "?"
+ },
+ {
+  "path_id": 3327,
+  "name": "Arcon-RegularButton SDF",
+  "file": "resources.assets",
+  "fmt": "new",
+  "raw_size": 46212,
+  "glyphs": 317,
+  "chars": 317,
+  "family": "Arcon",
+  "style": "Regular",
+  "point": 159.0,
+  "scale": 1.0,
+  "cap": 114.0,
+  "atlas": "2048x2048",
+  "pad": 10,
+  "atlas_tex": [
+   606
+  ],
+  "fallbacks": [
+   [
+    "resources.assets",
+    3335
+   ],
+   [
+    "resources.assets",
+    3338
+   ],
+   [
+    "resources.assets",
+    3342
+   ],
+   [
+    "resources.assets",
+    3346
+   ],
+   [
+    "resources.assets",
+    3350
+   ]
+  ]
+ },
+ {
+  "path_id": 3328,
+  "name": "Arcon-paragrapgh SDF",
+  "file": "resources.assets",
+  "fmt": "new",
+  "raw_size": 46208,
+  "glyphs": 317,
+  "chars": 317,
+  "family": "Arcon",
+  "style": "Regular",
+  "point": 159.0,
+  "scale": 1.0,
+  "cap": 114.0,
+  "atlas": "2048x2048",
+  "pad": 10,
+  "atlas_tex": [
+   606
+  ],
+  "fallbacks": [
+   [
+    "resources.assets",
+    3335
+   ],
+   [
+    "resources.assets",
+    3338
+   ],
+   [
+    "resources.assets",
+    3342
+   ],
+   [
+    "resources.assets",
+    3346
+   ],
+   [
+    "resources.assets",
+    3350
+   ]
+  ]
+ },
+ {
+  "path_id": 3329,
+  "name": "LiberationSans SDF",
+  "file": "resources.assets",
+  "fmt": "old",
+  "raw_size": 5520,
+  "read_err": "read_str out of bounds",
+  "fallbacks": [
+   [
+    "resources.assets",
+    3351
+   ],
+   [
+    "resources.assets",
+    3334
+   ],
+   [
+    "resources.assets",
+    3339
+   ],
+   [
+    "resources.assets",
+    3343
+   ],
+   [
+    "resources.assets",
+    3347
+   ]
+  ],
+  "glyphs": "?"
+ },
+ {
+  "path_id": 3330,
+  "name": "MarcellusSC-Regular",
+  "file": "resources.assets",
+  "fmt": "old",
+  "raw_size": 33972,
+  "read_err": "read_str out of bounds",
+  "fallbacks": [
+   [
+    "resources.assets",
+    3334
+   ],
+   [
+    "resources.assets",
+    3339
+   ],
+   [
+    "resources.assets",
+    3343
+   ],
+   [
+    "resources.assets",
+    3347
+   ],
+   [
+    "resources.assets",
+    3351
+   ]
+  ],
+  "glyphs": "?"
+ },
+ {
+  "path_id": 3331,
+  "name": "NotoColorEmoji Color",
+  "file": "resources.assets",
+  "fmt": "new",
+  "raw_size": 1636,
+  "glyphs": 0,
+  "chars": 0,
+  "family": "Noto Color Emoji",
+  "style": "Regular",
+  "point": 109.0,
+  "scale": 1.0,
+  "cap": 0.0,
+  "atlas": "1024x1024",
+  "pad": 9,
+  "atlas_tex": [
+   616
+  ],
+  "fallbacks": []
+ },
+ {
+  "path_id": 3332,
+  "name": "NotoSerifCyrillic-Bold SDF",
+  "file": "resources.assets",
+  "fmt": "old",
+  "raw_size": 42328,
+  "read_err": "read_str out of bounds",
+  "fallbacks": [],
+  "glyphs": "?"
+ },
+ {
+  "path_id": 3333,
+  "name": "NotoSerifCyrillic-Bold TMP",
+  "file": "resources.assets",
+  "fmt": "new",
+  "raw_size": 2960120,
+  "glyphs": 441,
+  "chars": 441,
+  "family": "Noto Serif",
+  "style": "Bold",
+  "point": 106.0,
+  "scale": 0.8999999761581421,
+  "cap": 76.0,
+  "atlas": "2048x2048",
+  "pad": 10,
+  "atlas_tex": [
+   622
+  ],
+  "fallbacks": []
+ },
+ {
+  "path_id": 3334,
+  "name": "NotoSerifCyrillic-Regular SDF",
+  "file": "resources.assets",
+  "fmt": "old",
+  "raw_size": 42336,
+  "read_err": "read_str out of bounds",
+  "fallbacks": [
+   [
+    "resources.assets",
+    3332
+   ]
+  ],
+  "glyphs": "?"
+ },
+ {
+  "path_id": 3335,
+  "name": "NotoSerifCyrillic-Regular TMP",
+  "file": "resources.assets",
+  "fmt": "new",
+  "raw_size": 2959024,
+  "glyphs": 441,
+  "chars": 441,
+  "family": "Noto Serif",
+  "style": "Regular",
+  "point": 112.0,
+  "scale": 0.8999999761581421,
+  "cap": 80.0,
+  "atlas": "2048x2048",
+  "pad": 10,
+  "atlas_tex": [
+   623
+  ],
+  "fallbacks": []
+ },
+ {
+  "path_id": 3336,
+  "name": "NotoSerifJP-Bold SDF 1",
+  "file": "resources.assets",
+  "fmt": "new",
+  "raw_size": 70404,
+  "glyphs": 0,
+  "chars": 0,
+  "family": "Noto Serif JP",
+  "style": "Bold",
+  "point": 90.0,
+  "scale": 1.0,
+  "cap": 67.0,
+  "atlas": "1024x1024",
+  "pad": 9,
+  "atlas_tex": [
+   144
+  ],
+  "fallbacks": []
+ },
+ {
+  "path_id": 3337,
+  "name": "NotoSerifJP-Bold SDF",
+  "file": "resources.assets",
+  "fmt": "old",
+  "raw_size": 724,
+  "read_err": "read_str out of bounds",
+  "fallbacks": [],
+  "glyphs": "?"
+ },
+ {
+  "path_id": 3338,
+  "name": "NotoSerifJP-Regular SDF 1",
+  "file": "resources.assets",
+  "fmt": "new",
+  "raw_size": 496784,
+  "glyphs": 0,
+  "chars": 0,
+  "family": "Noto Serif JP",
+  "style": "Regular",
+  "point": 90.0,
+  "scale": 1.0,
+  "cap": 66.0,
+  "atlas": "1024x1024",
+  "pad": 9,
+  "atlas_tex": [
+   624
+  ],
+  "fallbacks": []
+ },
+ {
+  "path_id": 3339,
+  "name": "NotoSerifJP-Regular SDF",
+  "file": "resources.assets",
+  "fmt": "old",
+  "raw_size": 732,
+  "read_err": "read_str out of bounds",
+  "fallbacks": [
+   [
+    "resources.assets",
+    3337
+   ]
+  ],
+  "glyphs": "?"
+ },
+ {
+  "path_id": 3340,
+  "name": "NotoSerifKR-Bold SDF 1",
+  "file": "resources.assets",
+  "fmt": "new",
+  "raw_size": 836,
+  "glyphs": 0,
+  "chars": 0,
+  "family": "Noto Serif KR",
+  "style": "Bold",
+  "point": 90.0,
+  "scale": 1.0,
+  "cap": 67.0,
+  "atlas": "1024x1024",
+  "pad": 9,
+  "atlas_tex": [
+   140
+  ],
+  "fallbacks": []
+ },
+ {
+  "path_id": 3341,
+  "name": "NotoSerifKR-Bold SDF",
+  "file": "resources.assets",
+  "fmt": "old",
+  "raw_size": 724,
+  "read_err": "read_str out of bounds",
+  "fallbacks": [],
+  "glyphs": "?"
+ },
+ {
+  "path_id": 3342,
+  "name": "NotoSerifKR-Regular SDF 1",
+  "file": "resources.assets",
+  "fmt": "new",
+  "raw_size": 844,
+  "glyphs": 0,
+  "chars": 0,
+  "family": "Noto Serif KR",
+  "style": "Regular",
+  "point": 90.0,
+  "scale": 1.0,
+  "cap": 66.0,
+  "atlas": "1024x1024",
+  "pad": 9,
+  "atlas_tex": [
+   628
+  ],
+  "fallbacks": []
+ },
+ {
+  "path_id": 3343,
+  "name": "NotoSerifKR-Regular SDF",
+  "file": "resources.assets",
+  "fmt": "old",
+  "raw_size": 732,
+  "read_err": "read_str out of bounds",
+  "fallbacks": [
+   [
+    "resources.assets",
+    3341
+   ]
+  ],
+  "glyphs": "?"
+ },
+ {
+  "path_id": 3344,
+  "name": "NotoSerifSC-Bold SDF 1",
+  "file": "resources.assets",
+  "fmt": "new",
+  "raw_size": 66496,
+  "glyphs": 0,
+  "chars": 0,
+  "family": "Noto Serif SC",
+  "style": "Bold",
+  "point": 90.0,
+  "scale": 1.0,
+  "cap": 67.0,
+  "atlas": "1024x1024",
+  "pad": 9,
+  "atlas_tex": [
+   158
+  ],
+  "fallbacks": []
+ },
+ {
+  "path_id": 3345,
+  "name": "NotoSerifSC-Bold SDF",
+  "file": "resources.assets",
+  "fmt": "old",
+  "raw_size": 724,
+  "read_err": "read_str out of bounds",
+  "fallbacks": [],
+  "glyphs": "?"
+ },
+ {
+  "path_id": 3346,
+  "name": "NotoSerifSC-Regular SDF 1",
+  "file": "resources.assets",
+  "fmt": "new",
+  "raw_size": 55504,
+  "glyphs": 0,
+  "chars": 0,
+  "family": "Noto Serif SC",
+  "style": "Regular",
+  "point": 90.0,
+  "scale": 1.0,
+  "cap": 66.0,
+  "atlas": "1024x1024",
+  "pad": 9,
+  "atlas_tex": [
+   627
+  ],
+  "fallbacks": []
+ },
+ {
+  "path_id": 3347,
+  "name": "NotoSerifSC-Regular SDF",
+  "file": "resources.assets",
+  "fmt": "old",
+  "raw_size": 732,
+  "read_err": "read_str out of bounds",
+  "fallbacks": [
+   [
+    "resources.assets",
+    3345
+   ]
+  ],
+  "glyphs": "?"
+ },
+ {
+  "path_id": 3348,
+  "name": "NotoSerifTC-Bold SDF 1",
+  "file": "resources.assets",
+  "fmt": "new",
+  "raw_size": 836,
+  "glyphs": 0,
+  "chars": 0,
+  "family": "Noto Serif TC",
+  "style": "Bold",
+  "point": 90.0,
+  "scale": 1.0,
+  "cap": 67.0,
+  "atlas": "1024x1024",
+  "pad": 9,
+  "atlas_tex": [
+   608
+  ],
+  "fallbacks": []
+ },
+ {
+  "path_id": 3349,
+  "name": "NotoSerifTC-Bold SDF",
+  "file": "resources.assets",
+  "fmt": "old",
+  "raw_size": 724,
+  "read_err": "read_str out of bounds",
+  "fallbacks": [],
+  "glyphs": "?"
+ },
+ {
+  "path_id": 3350,
+  "name": "NotoSerifTC-Regular SDF 1",
+  "file": "resources.assets",
+  "fmt": "new",
+  "raw_size": 844,
+  "glyphs": 0,
+  "chars": 0,
+  "family": "Noto Serif TC",
+  "style": "Regular",
+  "point": 90.0,
+  "scale": 1.0,
+  "cap": 66.0,
+  "atlas": "1024x1024",
+  "pad": 9,
+  "atlas_tex": [
+   142
+  ],
+  "fallbacks": []
+ },
+ {
+  "path_id": 3351,
+  "name": "NotoSerifTC-Regular SDF",
+  "file": "resources.assets",
+  "fmt": "old",
+  "raw_size": 732,
+  "read_err": "read_str out of bounds",
+  "fallbacks": [
+   [
+    "resources.assets",
+    3349
+   ]
+  ],
+  "glyphs": "?"
+ },
+ {
+  "path_id": 3352,
+  "name": "friz-quadrata-std-bold-browndirt SDF",
+  "file": "resources.assets",
+  "fmt": "new",
+  "raw_size": 347144,
+  "glyphs": 348,
+  "chars": 348,
+  "family": "Marcellus SC",
+  "style": "Regular",
+  "point": 145.0,
+  "scale": 1.0,
+  "cap": 102.0,
+  "atlas": "2048x2048",
+  "pad": 10,
+  "atlas_tex": [
+   147
+  ],
+  "fallbacks": [
+   [
+    "resources.assets",
+    3335
+   ],
+   [
+    "resources.assets",
+    3338
+   ],
+   [
+    "resources.assets",
+    3342
+   ],
+   [
+    "resources.assets",
+    3346
+   ],
+   [
+    "resources.assets",
+    3350
+   ]
+  ]
+ },
+ {
+  "path_id": 3353,
+  "name": "friz-quadrata-std-medium SDF TMP",
+  "file": "resources.assets",
+  "fmt": "new",
+  "raw_size": 347140,
+  "glyphs": 348,
+  "chars": 348,
+  "family": "Marcellus SC",
+  "style": "Regular",
+  "point": 145.0,
+  "scale": 1.0,
+  "cap": 102.0,
+  "atlas": "2048x2048",
+  "pad": 10,
+  "atlas_tex": [
+   143
+  ],
+  "fallbacks": [
+   [
+    "resources.assets",
+    3335
+   ],
+   [
+    "resources.assets",
+    3338
+   ],
+   [
+    "resources.assets",
+    3342
+   ],
+   [
+    "resources.assets",
+    3346
+   ],
+   [
+    "resources.assets",
+    3350
+   ]
+  ]
+ },
+ {
+  "path_id": 3354,
+  "name": "friz-quadrata-std-medium SDF",
+  "file": "resources.assets",
+  "fmt": "old",
+  "raw_size": 33980,
+  "read_err": "read_str out of bounds",
+  "fallbacks": [
+   [
+    "resources.assets",
+    3334
+   ],
+   [
+    "resources.assets",
+    3339
+   ],
+   [
+    "resources.assets",
+    3343
+   ],
+   [
+    "resources.assets",
+    3347
+   ],
+   [
+    "resources.assets",
+    3351
+   ]
+  ],
+  "glyphs": "?"
+ },
+ {
+  "path_id": 3355,
+  "name": "friz-quadrata-std-medium-5870338ec7ef8 SDF_grey",
+  "file": "resources.assets",
+  "fmt": "new",
+  "raw_size": 347156,
+  "glyphs": 348,
+  "chars": 348,
+  "family": "Marcellus SC",
+  "style": "Regular",
+  "point": 145.0,
+  "scale": 1.0,
+  "cap": 102.0,
+  "atlas": "2048x2048",
+  "pad": 10,
+  "atlas_tex": [
+   147
+  ],
+  "fallbacks": [
+   [
+    "resources.assets",
+    3335
+   ],
+   [
+    "resources.assets",
+    3338
+   ],
+   [
+    "resources.assets",
+    3342
+   ],
+   [
+    "resources.assets",
+    3346
+   ],
+   [
+    "resources.assets",
+    3350
+   ]
+  ]
+ },
+ {
+  "path_id": 3356,
+  "name": "friz-quadrata-std-medium-bold SDF TMP - Variant",
+  "file": "resources.assets",
+  "fmt": "new",
+  "raw_size": 347096,
+  "glyphs": 348,
+  "chars": 348,
+  "family": "Marcellus SC",
+  "style": "Regular",
+  "point": 145.0,
+  "scale": 1.0,
+  "cap": 102.0,
+  "atlas": "2048x2048",
+  "pad": 10,
+  "atlas_tex": [
+   143
+  ],
+  "fallbacks": []
+ },
+ {
+  "path_id": 3357,
+  "name": "friz-quadrata-std-medium_clean SDF TMP",
+  "file": "resources.assets",
+  "fmt": "new",
+  "raw_size": 347148,
+  "glyphs": 348,
+  "chars": 348,
+  "family": "Marcellus SC",
+  "style": "Regular",
+  "point": 145.0,
+  "scale": 1.0,
+  "cap": 102.0,
+  "atlas": "2048x2048",
+  "pad": 10,
+  "atlas_tex": [
+   147
+  ],
+  "fallbacks": [
+   [
+    "resources.assets",
+    3335
+   ],
+   [
+    "resources.assets",
+    3338
+   ],
+   [
+    "resources.assets",
+    3342
+   ],
+   [
+    "resources.assets",
+    3346
+   ],
+   [
+    "resources.assets",
+    3350
+   ]
+  ]
+ },
+ {
+  "path_id": 3603,
+  "name": "uiFontFrizQuadrataClean",
+  "file": "resources.assets",
+  "fmt": "new",
+  "raw_size": 347132,
+  "glyphs": 348,
+  "chars": 348,
+  "family": "Marcellus SC",
+  "style": "Regular",
+  "point": 145.0,
+  "scale": 1.0,
+  "cap": 102.0,
+  "atlas": "2048x2048",
+  "pad": 10,
+  "atlas_tex": [
+   147
+  ],
+  "fallbacks": [
+   [
+    "resources.assets",
+    3335
+   ],
+   [
+    "resources.assets",
+    3338
+   ],
+   [
+    "resources.assets",
+    3342
+   ],
+   [
+    "resources.assets",
+    3346
+   ],
+   [
+    "resources.assets",
+    3350
+   ]
+  ]
+ }
+]

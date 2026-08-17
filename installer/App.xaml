@@ -1,0 +1,56 @@
+<Application x:Class="UAInstaller.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <!-- Палітра No Rest for the Wicked -->
+        <SolidColorBrush x:Key="BgDark" Color="#FF14100D"/>
+        <SolidColorBrush x:Key="BgPanel" Color="#FF1E1813"/>
+        <SolidColorBrush x:Key="BgPanel2" Color="#FF262019"/>
+        <SolidColorBrush x:Key="Parchment" Color="#FFF2E6BD"/>
+        <SolidColorBrush x:Key="ParchmentDim" Color="#FFB8A97E"/>
+        <SolidColorBrush x:Key="GoldAccent" Color="#FFD9B856"/>
+        <SolidColorBrush x:Key="Rust" Color="#FF8C3B2E"/>
+        <SolidColorBrush x:Key="Border" Color="#FF3A3025"/>
+
+        <Style x:Key="WickedButton" TargetType="Button">
+            <Setter Property="Background" Value="{StaticResource BgPanel2}"/>
+            <Setter Property="Foreground" Value="{StaticResource Parchment}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource Border}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="FontFamily" Value="Georgia"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Padding" Value="22,10"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="bd" Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="2">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"
+                                              Margin="{TemplateBinding Padding}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="bd" Property="BorderBrush" Value="{StaticResource GoldAccent}"/>
+                                <Setter Property="Foreground" Value="{StaticResource GoldAccent}"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter Property="Opacity" Value="0.4"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="PrimaryButton" TargetType="Button" BasedOn="{StaticResource WickedButton}">
+            <Setter Property="Background" Value="#FF2E2415"/>
+            <Setter Property="BorderBrush" Value="{StaticResource GoldAccent}"/>
+            <Setter Property="Foreground" Value="{StaticResource GoldAccent}"/>
+            <Setter Property="FontSize" Value="19"/>
+        </Style>
+    </Application.Resources>
+</Application>

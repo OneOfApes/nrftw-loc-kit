@@ -1,0 +1,259 @@
+{
+ "3328": [
+  {
+   "path_id": 3315,
+   "cls": "fid1:12001",
+   "label": "<асет PolybrushDark>"
+  },
+  {
+   "path_id": 3316,
+   "cls": "fid1:12001",
+   "label": "<асет PolybrushLight>"
+  },
+  {
+   "path_id": 3321,
+   "cls": "TMP_SpriteAsset",
+   "label": "<асет EmojiOne>"
+  },
+  {
+   "path_id": 3596,
+   "cls": "TMP_SpriteAsset",
+   "label": "<асет uiControlAtlasKBM>"
+  },
+  {
+   "path_id": 3597,
+   "cls": "TMP_SpriteAsset",
+   "label": "<асет uiFontChatSpecial>"
+  },
+  {
+   "path_id": 3598,
+   "cls": "TMP_SpriteAsset",
+   "label": "<асет uiFontControlKBM>"
+  },
+  {
+   "path_id": 3599,
+   "cls": "TMP_SpriteAsset",
+   "label": "<асет uiFontControlPS5>"
+  },
+  {
+   "path_id": 3600,
+   "cls": "TMP_SpriteAsset",
+   "label": "<асет uiFontControlXbox>"
+  },
+  {
+   "path_id": 3601,
+   "cls": "TMP_SpriteAsset",
+   "label": "<асет uiFontElements>"
+  },
+  {
+   "path_id": 3602,
+   "cls": "TMP_SpriteAsset",
+   "label": "<асет uiFontEmoji>"
+  },
+  {
+   "path_id": 3604,
+   "cls": "TMP_SpriteAsset",
+   "label": "<асет uiFontIcons>"
+  },
+  {
+   "path_id": 4333,
+   "cls": "TextMeshProUGUI",
+   "label": ""
+  }
+ ],
+ "3319": [
+  {
+   "path_id": 3323,
+   "cls": "TMP_Settings",
+   "label": "<асет TMP Settings>"
+  },
+  {
+   "path_id": 4459,
+   "cls": "TextMeshProUGUI",
+   "label": ""
+  }
+ ],
+ "3331": [
+  {
+   "path_id": 3323,
+   "cls": "TMP_Settings",
+   "label": "<асет TMP Settings>"
+  }
+ ],
+ "3324": [
+  {
+   "path_id": 3773,
+   "cls": "fid1:11998",
+   "label": "<асет ActivityRewardPanel>"
+  },
+  {
+   "path_id": 3782,
+   "cls": "fid1:11998",
+   "label": "<асет ItemRewardBox>"
+  },
+  {
+   "path_id": 3785,
+   "cls": "fid1:11998",
+   "label": "<асет FontsStyleSheet>"
+  }
+ ],
+ "3330": [
+  {
+   "path_id": 3773,
+   "cls": "fid1:11998",
+   "label": "<асет ActivityRewardPanel>"
+  },
+  {
+   "path_id": 3775,
+   "cls": "fid1:11998",
+   "label": "<асет ActivityDetailsPanel>"
+  }
+ ],
+ "3326": [
+  {
+   "path_id": 3776,
+   "cls": "fid1:11998",
+   "label": "<асет ActivityJournalEntryLabel>"
+  },
+  {
+   "path_id": 3778,
+   "cls": "fid1:11998",
+   "label": "<асет MapChunkDetailsPanel>"
+  }
+ ],
+ "3354": [
+  {
+   "path_id": 3778,
+   "cls": "fid1:11998",
+   "label": "<асет MapChunkDetailsPanel>"
+  }
+ ],
+ "3329": [
+  {
+   "path_id": 3788,
+   "cls": "fid1:11998",
+   "label": "<асет FallbackStyleSheet>"
+  }
+ ],
+ "3352": [
+  {
+   "path_id": 3998,
+   "cls": "TextMeshProUGUI",
+   "label": ""
+  },
+  {
+   "path_id": 4018,
+   "cls": "TextMeshProUGUI",
+   "label": ""
+  },
+  {
+   "path_id": 4295,
+   "cls": "TextMeshProUGUI",
+   "label": ""
+  }
+ ],
+ "3353": [
+  {
+   "path_id": 4010,
+   "cls": "TextMeshProUGUI",
+   "label": ""
+  },
+  {
+   "path_id": 4390,
+   "cls": "TextMeshProUGUI",
+   "label": ""
+  }
+ ],
+ "3311": [
+  {
+   "path_id": 4013,
+   "cls": "TextMeshProUGUI",
+   "label": ""
+  },
+  {
+   "path_id": 4058,
+   "cls": "TextMeshProUGUI",
+   "label": ""
+  }
+ ],
+ "3357": [
+  {
+   "path_id": 4017,
+   "cls": "TextMeshProUGUI",
+   "label": ""
+  },
+  {
+   "path_id": 4204,
+   "cls": "TextMeshProUGUI",
+   "label": ""
+  },
+  {
+   "path_id": 4545,
+   "cls": "TextMeshProUGUI",
+   "label": ""
+  },
+  {
+   "path_id": 4546,
+   "cls": "TextMeshProUGUI",
+   "label": ""
+  }
+ ],
+ "3327": [
+  {
+   "path_id": 4064,
+   "cls": "TextMeshProUGUI",
+   "label": ""
+  },
+  {
+   "path_id": 4182,
+   "cls": "TextMeshProUGUI",
+   "label": ""
+  },
+  {
+   "path_id": 4441,
+   "cls": "TextMeshProUGUI",
+   "label": ""
+  },
+  {
+   "path_id": 4483,
+   "cls": "TextMeshProUGUI",
+   "label": ""
+  }
+ ],
+ "3355": [
+  {
+   "path_id": 4084,
+   "cls": "TextMeshProUGUI",
+   "label": ""
+  }
+ ],
+ "3325": [
+  {
+   "path_id": 4159,
+   "cls": "TextMeshProUGUI",
+   "label": ""
+  },
+  {
+   "path_id": 4208,
+   "cls": "TextMeshProUGUI",
+   "label": ""
+  }
+ ],
+ "3310": [
+  {
+   "path_id": 4374,
+   "cls": "TextMeshProUGUI",
+   "label": ""
+  },
+  {
+   "path_id": 4454,
+   "cls": "TextMeshProUGUI",
+   "label": ""
+  },
+  {
+   "path_id": 4524,
+   "cls": "TextMeshProUGUI",
+   "label": ""
+  }
+ ]
+}

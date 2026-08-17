@@ -1,0 +1,596 @@
+{
+ "fonts": {
+  "3311": "Arcon-Regular SDF",
+  "3312": "ArconBold-Regular SDF - Variant",
+  "3318": "LiberationSans SDF - Fallback",
+  "3319": "LiberationSans SDF",
+  "3320": "LiberationSansBold SDF - Variant",
+  "3323": "TMP Settings",
+  "3324": "Arcon-Regular SDF",
+  "3325": "Arcon-Regular SDF_stats_value",
+  "3326": "Arcon-Regular-Loc SDF",
+  "3327": "Arcon-RegularButton SDF",
+  "3328": "Arcon-paragrapgh SDF",
+  "3329": "LiberationSans SDF",
+  "3331": "NotoColorEmoji Color",
+  "3332": "NotoSerifCyrillic-Bold SDF",
+  "3333": "NotoSerifCyrillic-Bold TMP",
+  "3334": "NotoSerifCyrillic-Regular SDF",
+  "3335": "NotoSerifCyrillic-Regular TMP",
+  "3336": "NotoSerifJP-Bold SDF 1",
+  "3337": "NotoSerifJP-Bold SDF",
+  "3338": "NotoSerifJP-Regular SDF 1",
+  "3339": "NotoSerifJP-Regular SDF",
+  "3340": "NotoSerifKR-Bold SDF 1",
+  "3341": "NotoSerifKR-Bold SDF",
+  "3342": "NotoSerifKR-Regular SDF 1",
+  "3343": "NotoSerifKR-Regular SDF",
+  "3344": "NotoSerifSC-Bold SDF 1",
+  "3345": "NotoSerifSC-Bold SDF",
+  "3346": "NotoSerifSC-Regular SDF 1",
+  "3347": "NotoSerifSC-Regular SDF",
+  "3348": "NotoSerifTC-Bold SDF 1",
+  "3349": "NotoSerifTC-Bold SDF",
+  "3350": "NotoSerifTC-Regular SDF 1",
+  "3351": "NotoSerifTC-Regular SDF",
+  "3352": "friz-quadrata-std-bold-browndirt SDF",
+  "3353": "friz-quadrata-std-medium SDF TMP",
+  "3354": "friz-quadrata-std-medium SDF",
+  "3355": "friz-quadrata-std-medium-5870338ec7ef8 SDF_grey",
+  "3356": "friz-quadrata-std-medium-bold SDF TMP - Variant",
+  "3357": "friz-quadrata-std-medium_clean SDF TMP",
+  "3597": "uiFontChatSpecial",
+  "3598": "uiFontControlKBM",
+  "3599": "uiFontControlPS5",
+  "3600": "uiFontControlXbox",
+  "3601": "uiFontElements",
+  "3602": "uiFontEmoji",
+  "3603": "uiFontFrizQuadrataClean",
+  "3604": "uiFontIcons",
+  "3785": "FontsStyleSheet"
+ },
+ "usage": {
+  "Arcon-paragrapgh SDF": {
+   "path_id": 3328,
+   "n_refs": 6,
+   "users": [
+    "PolybrushDark",
+    "PolybrushLight",
+    "EmojiOne",
+    "uiControlAtlasKBM",
+    ""
+   ]
+  },
+  "Arcon-RegularButton SDF": {
+   "path_id": 3327,
+   "n_refs": 4,
+   "users": [
+    ""
+   ]
+  },
+  "friz-quadrata-std-medium_clean SDF TMP": {
+   "path_id": 3357,
+   "n_refs": 4,
+   "users": [
+    ""
+   ]
+  },
+  "Arcon-Regular SDF": {
+   "path_id": 3311,
+   "n_refs": 2,
+   "users": [
+    ""
+   ]
+  },
+  "friz-quadrata-std-bold-browndirt SDF": {
+   "path_id": 3352,
+   "n_refs": 3,
+   "users": [
+    ""
+   ]
+  },
+  "LiberationSans SDF": {
+   "path_id": 3329,
+   "n_refs": 1,
+   "users": [
+    "FallbackStyleSheet"
+   ]
+  },
+  "Arcon-Regular SDF_stats_value": {
+   "path_id": 3325,
+   "n_refs": 2,
+   "users": [
+    ""
+   ]
+  },
+  "Arcon-Regular-Loc SDF": {
+   "path_id": 3326,
+   "n_refs": 2,
+   "users": [
+    "ActivityJournalEntryLabel",
+    "MapChunkDetailsPanel"
+   ]
+  },
+  "friz-quadrata-std-medium SDF TMP": {
+   "path_id": 3353,
+   "n_refs": 2,
+   "users": [
+    ""
+   ]
+  },
+  "FontsStyleSheet": {
+   "path_id": 3785,
+   "n_refs": 2,
+   "users": [
+    "UnityDefaultRuntimeTheme"
+   ]
+  },
+  "ArconBold-Regular SDF - Variant": {
+   "path_id": 3312,
+   "n_refs": 1,
+   "users": [
+    "Arcon-Regular Header"
+   ]
+  },
+  "NotoColorEmoji Color": {
+   "path_id": 3331,
+   "n_refs": 1,
+   "users": [
+    "TMP Settings"
+   ]
+  },
+  "NotoSerifCyrillic-Regular SDF": {
+   "path_id": 3334,
+   "n_refs": 1,
+   "users": [
+    "MarcellusSC-Regular"
+   ]
+  },
+  "NotoSerifCyrillic-Regular TMP": {
+   "path_id": 3335,
+   "n_refs": 1,
+   "users": [
+    "Arcon-Regular Header"
+   ]
+  },
+  "NotoSerifJP-Bold SDF": {
+   "path_id": 3337,
+   "n_refs": 1,
+   "users": [
+    "NotoSerifJP-Regular SDF"
+   ]
+  },
+  "NotoSerifJP-Regular SDF 1": {
+   "path_id": 3338,
+   "n_refs": 1,
+   "users": [
+    "Arcon-Regular Header"
+   ]
+  },
+  "NotoSerifJP-Regular SDF": {
+   "path_id": 3339,
+   "n_refs": 1,
+   "users": [
+    "MarcellusSC-Regular"
+   ]
+  },
+  "NotoSerifKR-Bold SDF 1": {
+   "path_id": 3340,
+   "n_refs": 1,
+   "users": [
+    "NotoSerifKR-Regular SDF 1"
+   ]
+  },
+  "NotoSerifKR-Bold SDF": {
+   "path_id": 3341,
+   "n_refs": 1,
+   "users": [
+    "NotoSerifKR-Regular SDF"
+   ]
+  },
+  "NotoSerifKR-Regular SDF 1": {
+   "path_id": 3342,
+   "n_refs": 1,
+   "users": [
+    "Arcon-Regular Header"
+   ]
+  },
+  "NotoSerifKR-Regular SDF": {
+   "path_id": 3343,
+   "n_refs": 1,
+   "users": [
+    "MarcellusSC-Regular"
+   ]
+  },
+  "NotoSerifSC-Bold SDF": {
+   "path_id": 3345,
+   "n_refs": 1,
+   "users": [
+    "NotoSerifSC-Regular SDF"
+   ]
+  },
+  "NotoSerifSC-Regular SDF 1": {
+   "path_id": 3346,
+   "n_refs": 1,
+   "users": [
+    "Arcon-Regular Header"
+   ]
+  },
+  "NotoSerifSC-Regular SDF": {
+   "path_id": 3347,
+   "n_refs": 1,
+   "users": [
+    "MarcellusSC-Regular"
+   ]
+  },
+  "NotoSerifTC-Bold SDF 1": {
+   "path_id": 3348,
+   "n_refs": 1,
+   "users": [
+    "NotoSerifTC-Regular SDF 1"
+   ]
+  },
+  "NotoSerifTC-Bold SDF": {
+   "path_id": 3349,
+   "n_refs": 1,
+   "users": [
+    "NotoSerifTC-Regular SDF"
+   ]
+  },
+  "NotoSerifTC-Regular SDF 1": {
+   "path_id": 3350,
+   "n_refs": 1,
+   "users": [
+    "Arcon-Regular Header"
+   ]
+  },
+  "NotoSerifTC-Regular SDF": {
+   "path_id": 3351,
+   "n_refs": 1,
+   "users": [
+    "MarcellusSC-Regular"
+   ]
+  },
+  "friz-quadrata-std-medium SDF": {
+   "path_id": 3354,
+   "n_refs": 1,
+   "users": [
+    "MapChunkDetailsPanel"
+   ]
+  },
+  "friz-quadrata-std-medium-5870338ec7ef8 SDF_grey": {
+   "path_id": 3355,
+   "n_refs": 1,
+   "users": [
+    ""
+   ]
+  },
+  "uiFontEmoji": {
+   "path_id": 3602,
+   "n_refs": 1,
+   "users": [
+    "TMP Settings"
+   ]
+  },
+  "LiberationSans SDF - Fallback": {
+   "path_id": 3318,
+   "n_refs": 0,
+   "users": []
+  },
+  "LiberationSansBold SDF - Variant": {
+   "path_id": 3320,
+   "n_refs": 0,
+   "users": []
+  },
+  "TMP Settings": {
+   "path_id": 3323,
+   "n_refs": 0,
+   "users": []
+  },
+  "NotoSerifCyrillic-Bold SDF": {
+   "path_id": 3332,
+   "n_refs": 0,
+   "users": []
+  },
+  "NotoSerifCyrillic-Bold TMP": {
+   "path_id": 3333,
+   "n_refs": 0,
+   "users": []
+  },
+  "NotoSerifJP-Bold SDF 1": {
+   "path_id": 3336,
+   "n_refs": 0,
+   "users": []
+  },
+  "NotoSerifSC-Bold SDF 1": {
+   "path_id": 3344,
+   "n_refs": 0,
+   "users": []
+  },
+  "friz-quadrata-std-medium-bold SDF TMP - Variant": {
+   "path_id": 3356,
+   "n_refs": 0,
+   "users": []
+  },
+  "uiFontChatSpecial": {
+   "path_id": 3597,
+   "n_refs": 0,
+   "users": []
+  },
+  "uiFontControlKBM": {
+   "path_id": 3598,
+   "n_refs": 0,
+   "users": []
+  },
+  "uiFontControlPS5": {
+   "path_id": 3599,
+   "n_refs": 0,
+   "users": []
+  },
+  "uiFontControlXbox": {
+   "path_id": 3600,
+   "n_refs": 0,
+   "users": []
+  },
+  "uiFontElements": {
+   "path_id": 3601,
+   "n_refs": 0,
+   "users": []
+  },
+  "uiFontFrizQuadrataClean": {
+   "path_id": 3603,
+   "n_refs": 0,
+   "users": []
+  },
+  "uiFontIcons": {
+   "path_id": 3604,
+   "n_refs": 0,
+   "users": []
+  }
+ },
+ "chains": {
+  "Arcon-Regular SDF": [
+   "NotoSerifTC-Regular SDF",
+   "NotoSerifCyrillic-Regular SDF",
+   "NotoSerifJP-Regular SDF",
+   "NotoSerifKR-Regular SDF",
+   "NotoSerifSC-Regular SDF"
+  ],
+  "ArconBold-Regular SDF - Variant": [
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF",
+   "Arcon-paragrapgh SDF"
+  ],
+  "LiberationSans SDF": [
+   "NotoSerifTC-Regular SDF",
+   "NotoSerifCyrillic-Regular SDF",
+   "NotoSerifJP-Regular SDF",
+   "NotoSerifKR-Regular SDF",
+   "NotoSerifSC-Regular SDF"
+  ],
+  "LiberationSansBold SDF - Variant": [
+   "Arcon-paragrapgh SDF",
+   "LiberationSans SDF - Fallback",
+   "NotoSerifCyrillic-Regular TMP",
+   "NotoSerifJP-Regular SDF 1",
+   "NotoSerifKR-Regular SDF 1",
+   "NotoSerifSC-Regular SDF 1",
+   "NotoSerifTC-Regular SDF 1"
+  ],
+  "TMP Settings": [
+   "LiberationSans SDF",
+   "uiFontEmoji",
+   "NotoColorEmoji Color"
+  ],
+  "Arcon-Regular SDF_stats_value": [
+   "NotoSerifCyrillic-Regular TMP",
+   "NotoSerifJP-Regular SDF 1",
+   "NotoSerifKR-Regular SDF 1",
+   "NotoSerifSC-Regular SDF 1",
+   "NotoSerifTC-Regular SDF 1",
+   "ArconBold-Regular SDF - Variant"
+  ],
+  "Arcon-Regular-Loc SDF": [
+   "NotoSerifTC-Regular SDF",
+   "NotoSerifCyrillic-Regular SDF",
+   "NotoSerifJP-Regular SDF",
+   "NotoSerifKR-Regular SDF",
+   "NotoSerifSC-Regular SDF"
+  ],
+  "Arcon-RegularButton SDF": [
+   "NotoSerifCyrillic-Regular TMP",
+   "NotoSerifJP-Regular SDF 1",
+   "NotoSerifKR-Regular SDF 1",
+   "NotoSerifSC-Regular SDF 1",
+   "NotoSerifTC-Regular SDF 1",
+   "ArconBold-Regular SDF - Variant"
+  ],
+  "Arcon-paragrapgh SDF": [
+   "NotoSerifCyrillic-Regular TMP",
+   "NotoSerifJP-Regular SDF 1",
+   "NotoSerifKR-Regular SDF 1",
+   "NotoSerifSC-Regular SDF 1",
+   "NotoSerifTC-Regular SDF 1",
+   "ArconBold-Regular SDF - Variant"
+  ],
+  "NotoSerifCyrillic-Bold TMP": [
+   "Arcon-paragrapgh SDF"
+  ],
+  "NotoSerifCyrillic-Regular SDF": [
+   "NotoSerifCyrillic-Bold SDF"
+  ],
+  "NotoSerifCyrillic-Regular TMP": [
+   "Arcon-paragrapgh SDF",
+   "NotoSerifCyrillic-Bold TMP"
+  ],
+  "NotoSerifJP-Regular SDF 1": [
+   "NotoSerifJP-Bold SDF 1"
+  ],
+  "NotoSerifJP-Regular SDF": [
+   "NotoSerifJP-Bold SDF"
+  ],
+  "NotoSerifKR-Regular SDF 1": [
+   "NotoSerifKR-Bold SDF 1"
+  ],
+  "NotoSerifKR-Regular SDF": [
+   "NotoSerifKR-Bold SDF"
+  ],
+  "NotoSerifSC-Regular SDF 1": [
+   "NotoSerifSC-Bold SDF 1"
+  ],
+  "NotoSerifSC-Regular SDF": [
+   "NotoSerifSC-Bold SDF"
+  ],
+  "NotoSerifTC-Regular SDF 1": [
+   "NotoSerifTC-Bold SDF 1"
+  ],
+  "NotoSerifTC-Regular SDF": [
+   "NotoSerifTC-Bold SDF"
+  ],
+  "friz-quadrata-std-bold-browndirt SDF": [
+   "NotoSerifCyrillic-Regular TMP",
+   "NotoSerifJP-Regular SDF 1",
+   "NotoSerifKR-Regular SDF 1",
+   "NotoSerifSC-Regular SDF 1",
+   "NotoSerifTC-Regular SDF 1",
+   "friz-quadrata-std-medium-bold SDF TMP - Variant"
+  ],
+  "friz-quadrata-std-medium SDF TMP": [
+   "NotoSerifCyrillic-Regular TMP",
+   "NotoSerifJP-Regular SDF 1",
+   "NotoSerifKR-Regular SDF 1",
+   "NotoSerifSC-Regular SDF 1",
+   "NotoSerifTC-Regular SDF 1",
+   "friz-quadrata-std-medium-bold SDF TMP - Variant"
+  ],
+  "friz-quadrata-std-medium SDF": [
+   "NotoSerifCyrillic-Regular SDF",
+   "NotoSerifJP-Regular SDF",
+   "NotoSerifKR-Regular SDF",
+   "NotoSerifSC-Regular SDF",
+   "NotoSerifTC-Regular SDF"
+  ],
+  "friz-quadrata-std-medium-5870338ec7ef8 SDF_grey": [
+   "NotoSerifCyrillic-Regular TMP",
+   "NotoSerifJP-Regular SDF 1",
+   "NotoSerifKR-Regular SDF 1",
+   "NotoSerifSC-Regular SDF 1",
+   "NotoSerifTC-Regular SDF 1",
+   "friz-quadrata-std-medium-bold SDF TMP - Variant"
+  ],
+  "friz-quadrata-std-medium_clean SDF TMP": [
+   "NotoSerifCyrillic-Regular TMP",
+   "NotoSerifJP-Regular SDF 1",
+   "NotoSerifKR-Regular SDF 1",
+   "NotoSerifSC-Regular SDF 1",
+   "NotoSerifTC-Regular SDF 1",
+   "friz-quadrata-std-medium-bold SDF TMP - Variant"
+  ],
+  "uiFontChatSpecial": [
+   "Arcon-paragrapgh SDF"
+  ],
+  "uiFontControlKBM": [
+   "Arcon-paragrapgh SDF"
+  ],
+  "uiFontControlPS5": [
+   "Arcon-paragrapgh SDF"
+  ],
+  "uiFontControlXbox": [
+   "Arcon-paragrapgh SDF"
+  ],
+  "uiFontElements": [
+   "Arcon-paragrapgh SDF"
+  ],
+  "uiFontEmoji": [
+   "Arcon-paragrapgh SDF"
+  ],
+  "uiFontFrizQuadrataClean": [
+   "NotoSerifCyrillic-Regular TMP",
+   "NotoSerifJP-Regular SDF 1",
+   "NotoSerifKR-Regular SDF 1",
+   "NotoSerifSC-Regular SDF 1",
+   "NotoSerifTC-Regular SDF 1"
+  ],
+  "uiFontIcons": [
+   "Arcon-paragrapgh SDF"
+  ],
+  "FontsStyleSheet": [
+   "Arcon-Regular SDF"
+  ]
+ }
+}

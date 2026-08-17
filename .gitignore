@@ -1,0 +1,59 @@
+# --- local configuration (paths are user-specific, never commit) ---
+config.local.json
+
+# --- python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# --- fonts: bring your own, never redistribute ---
+*.otf
+*.ttf
+*.ttc
+*.woff
+*.woff2
+
+# --- game files / working data ---
+*.bundle
+*.assets
+*.resS
+*.assets.resS
+globalgamemanagers*
+originals/
+staging/
+work/
+backup/
+fonts_backup/
+fonts_extracted/
+fonts_preview/
+scratchpad/
+
+# --- build artifacts / binaries ---
+bin/
+obj/
+_publish/
+payload/
+*.exe
+*.dll
+*.pdb
+*.zip
+*.7z
+*.hdiff
+
+# --- audio (separate repo) ---
+*.wav
+*.wem
+*.bnk
+*.pck
+
+# --- os / editors ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

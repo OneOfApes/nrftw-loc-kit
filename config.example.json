@@ -1,0 +1,18 @@
+{
+  "_readme": "Copy this file to config.local.json and fill in real paths. Use forward slashes or doubled backslashes. config.local.json is gitignored and never committed. Fonts are NOT shipped with this kit - bring your own licensed .otf/.ttf.",
+
+  "_game_data": "Full path to the <Game>_Data folder, i.e. the one containing StreamingAssets/aa/StandaloneWindows64 and resources.assets.",
+  "game_data": "D:/Games/steamapps/common/NoRestForTheWicked/NoRestForTheWicked_Data",
+
+  "_work_dir": "Writable scratch directory. The kit creates fonts_scan/ and fonts_backup/ inside it. Needs a few GB free.",
+  "work_dir": "D:/loc-work/nrftw",
+
+  "_font_accent": "Accent / display typeface used for headings, names, titles.",
+  "font_accent": "D:/loc-work/fonts/AccentFont-Regular.otf",
+
+  "_font_body": "Body typeface used for the bulk of UI and dialogue text.",
+  "font_body": "D:/loc-work/fonts/BodyFont-Light.otf",
+
+  "_font_digits": "Optional. Separate face for digits (often a heavier weight of the body font). Leave empty to reuse font_body.",
+  "font_digits": ""
+}
